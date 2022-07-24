@@ -70,21 +70,48 @@ namespace QuizGame
                 //Calcul du pourcentage de bonnes réponses
                 pourcentage = (int)Math.Round((double)(score * 100 )/ totalQuestions);
 
+                
+
                 //Pop up de fin indiquant le résultat
-                MessageBox.Show(
-                    "Fin du quiz ! " + Environment.NewLine 
-                    + "Vous avez répondu correctement à " + score + " questions sur " 
-                    + totalQuestions + Environment.NewLine
-                    + "Votre poucentage de réussite est de " + pourcentage + "%" 
-                    + Environment.NewLine + Environment.NewLine
-                    + "Cliquez sur OK pour rejouer"
-                );
+                // Si résultat supérieur ou égale à la moitié du nombre de question => Réussite !
+                if (score >= (totalQuestions / 2))
+                {
+                    var msg = MessageBox.Show(
+                        "Fin du quiz ! " + Environment.NewLine
+                        + "Vous avez répondu correctement à " + score + " questions sur "
+                        + totalQuestions + Environment.NewLine
+                        + "Votre poucentage de réussite est de " + pourcentage + "%"
+                        + Environment.NewLine + Environment.NewLine
+
+                        + "Cliquez sur OK pour récupérer votre certificat de réussite !"
+                    );
+
+                    //Affichage du deuxième form (certificat)
+                    if (msg == DialogResult.OK )
+                    {
+                        Form2 f2 = new Form2();
+                        f2.ShowDialog(); // Shows Form2
+                    }
+                }
+                else
+                {
+                    var msg = MessageBox.Show(
+                        "Fin du quiz ! " + Environment.NewLine
+                        + "Vous avez répondu correctement à " + score + " questions sur "
+                        + totalQuestions + Environment.NewLine
+                        + "Votre poucentage de réussite est de " + pourcentage + "%"
+                        + Environment.NewLine + Environment.NewLine
+
+                        + "Cliquez sur OK pour recommencer le quiz !"
+                    );
+
+                }
+                    
 
                 // Remise à zéro des questions
                 score = 0;
                 questionNumber = 0;
                 askQuestion(questionNumber);
-
 
             }
 
@@ -302,6 +329,12 @@ namespace QuizGame
 
             }
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog(); // Shows Form2
         }
     }
 }
