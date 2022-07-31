@@ -10,8 +10,9 @@
 
 namespace QuizGame.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
     /// </summary>
@@ -31,7 +32,9 @@ namespace QuizGame.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
+
         
+
         /// <summary>
         ///   Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
         /// </summary>
@@ -63,9 +66,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Cerceuil_en_plomb_de_Louise_de_Quengo {
+        internal static System.Drawing.Bitmap _1 {
             get {
-                object obj = ResourceManager.GetObject("Cerceuil-en-plomb-de-Louise-de-Quengo", resourceCulture);
+                object obj = ResourceManager.GetObject("1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +76,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Fresque_romaine_découverte_à_Arles {
+        internal static System.Drawing.Bitmap _10 {
             get {
-                object obj = ResourceManager.GetObject("Fresque-romaine-découverte-à-Arles", resourceCulture);
+                object obj = ResourceManager.GetObject("10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +86,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Momie_associée_au_maître_Liuquan {
+        internal static System.Drawing.Bitmap _11 {
             get {
-                object obj = ResourceManager.GetObject("Momie-associée-au-maître-Liuquan", resourceCulture);
+                object obj = ResourceManager.GetObject("11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +96,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Nouveaux_géoglyphes_Nazca_identifiés {
+        internal static System.Drawing.Bitmap _12 {
             get {
-                object obj = ResourceManager.GetObject("Nouveaux-géoglyphes-Nazca-identifiés", resourceCulture);
+                object obj = ResourceManager.GetObject("12", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +106,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Site_de_Stonehenge_dans_la_plaine_de_Salisbury {
+        internal static System.Drawing.Bitmap _13 {
             get {
-                object obj = ResourceManager.GetObject("Site-de-Stonehenge-dans-la-plaine-de-Salisbury", resourceCulture);
+                object obj = ResourceManager.GetObject("13", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +116,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Tombe_Amphipolis {
+        internal static System.Drawing.Bitmap _14 {
             get {
-                object obj = ResourceManager.GetObject("Tombe-Amphipolis", resourceCulture);
+                object obj = ResourceManager.GetObject("14", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +126,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Tombe_celte_de_Lavau {
+        internal static System.Drawing.Bitmap _15 {
             get {
-                object obj = ResourceManager.GetObject("Tombe-celte-de-Lavau", resourceCulture);
+                object obj = ResourceManager.GetObject("15", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +136,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Tombeau_de_Toutankhamon {
+        internal static System.Drawing.Bitmap _16 {
             get {
-                object obj = ResourceManager.GetObject("Tombeau-de-Toutankhamon", resourceCulture);
+                object obj = ResourceManager.GetObject("16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +146,9 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Tombeau_étrusque_mis_au_jour_en_Ombrie {
+        internal static System.Drawing.Bitmap _17 {
             get {
-                object obj = ResourceManager.GetObject("Tombeau-étrusque-mis-au-jour-en-Ombrie", resourceCulture);
+                object obj = ResourceManager.GetObject("17", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +156,109 @@ namespace QuizGame.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Vestiges_de_la_cité_engloutie_mise_au_jour_dans_la_baie_de_Kiladha_en_Grèce {
+        internal static System.Drawing.Bitmap _18 {
             get {
-                object obj = ResourceManager.GetObject("Vestiges-de-la-cité-engloutie-mise-au-jour-dans-la-baie-de-Kiladha-en-Grèce", resourceCulture);
+                object obj = ResourceManager.GetObject("18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _19 {
+            get {
+                object obj = ResourceManager.GetObject("19", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2 {
+            get {
+                object obj = ResourceManager.GetObject("2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _20 {
+            get {
+                object obj = ResourceManager.GetObject("20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3 {
+            get {
+                object obj = ResourceManager.GetObject("3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4 {
+            get {
+                object obj = ResourceManager.GetObject("4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5 {
+            get {
+                object obj = ResourceManager.GetObject("5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6 {
+            get {
+                object obj = ResourceManager.GetObject("6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7 {
+            get {
+                object obj = ResourceManager.GetObject("7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8 {
+            get {
+                object obj = ResourceManager.GetObject("8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9 {
+            get {
+                object obj = ResourceManager.GetObject("9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

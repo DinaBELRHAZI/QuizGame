@@ -54,7 +54,7 @@ namespace QuizGame
 
 
 
-            XImage image = XImage.FromFile("encadrement.png");
+            XImage image = XImage.FromFile("cadre3.png");
 
             
             gfx.DrawImage(image, 0, 0, page.Width, page.Height);
@@ -66,14 +66,14 @@ namespace QuizGame
 
 
             gfx.DrawString("CERTIFICAT DE REUSSITE ", new XFont("Garamond", 50, XFontStyle.Regular), XBrushes.Goldenrod, new XRect(10, 80, page.Width, page.Height), XStringFormats.TopCenter);
-            gfx.DrawString("Ceci est remis à ", new XFont("Garamond", 30, XFontStyle.Italic), XBrushes.Black, new XRect(0, 180, page.Width, page.Height), XStringFormats.TopCenter);
+            gfx.DrawString("Ce certificat est décerné à ", new XFont("Garamond", 30, XFontStyle.Italic), XBrushes.Black, new XRect(0, 180, page.Width, page.Height), XStringFormats.TopCenter);
             gfx.DrawString(prenom + " " + nom, new XFont("Garamond", 50, XFontStyle.Bold), XBrushes.Goldenrod, new XRect(0, 0, page.Width, page.Height), XStringFormats.Center);
             gfx.DrawString("pour avoir terminé avec succès le quiz de connaissance sur l'archéologie.", new XFont("Garamond", 20, XFontStyle.Regular), XBrushes.Black, new XRect(0, 60, page.Width, page.Height), XStringFormats.Center);
-            gfx.DrawString("2022/2023 ", new XFont("Garamond", 20, XFontStyle.Regular), XBrushes.Black, new XRect(60, 270, page.Width, page.Height), XStringFormats.CenterLeft);
+            gfx.DrawString("2022/2023 ", new XFont("Garamond", 20, XFontStyle.Regular), XBrushes.Black, new XRect(100, 170, page.Width, page.Height), XStringFormats.CenterLeft);
 
 
             //Specify file name of the PDF file
-            string filename = "Certificat"+ nom + "_" + prenom +".pdf";
+            string filename = "Certificat_"+ nom + "_" + prenom +".pdf";
             //Save PDF File
             document.Save(filename);
             //Load PDF File for viewing
@@ -84,5 +84,6 @@ namespace QuizGame
         {
 
         }
+
     }
 }
