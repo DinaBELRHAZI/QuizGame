@@ -11,7 +11,8 @@ Pour lancer correctement le projet, vous devez préalablement l'ouvrir en sélec
 
 Vous devez ensuite installez le package MongoDB.Driver
 
-###Création de la base de données
+### Création de la base de données
+
 Vous pouvez utiliser soit le fichier quiz_archeo.xlsx, soit qui_archeo.js pour créer votre bdd.
 
 ![bdd](img/Mongodb_archeo_quiz.PNG)
