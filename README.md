@@ -1,11 +1,11 @@
-#Quiz de connaissances sur l'archéologie
+# Quiz de connaissances sur l'archéologie
 
 Ce projet a été réalisé à l'aide du langage de programmation C# et de Windows Form .Net Framework.
 Il est relié à une base de données MongoDB appelé quiz_archeo.
 
 
 
-##Utilisaion du projet
+## Utilisaion du projet
 
 Pour lancer correctement le projet, vous devez préalablement l'ouvrir en sélectionnant la solution et non le dossier.
 
@@ -25,7 +25,7 @@ Ce quiz permet de tester les connaissances de l'utilisateur sur différents suje
 
 
 
-###Page d'accueil du jeu
+### Page d'accueil du jeu
 
 Vous avez différents modes de quiz.
 
@@ -33,7 +33,7 @@ Vous avez différents modes de quiz.
 
 
 
-####Mode entraînement
+#### Mode entraînement
 
 Ce mode permet de tester ses connaissances tout en apprenant.
 
