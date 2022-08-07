@@ -1,7 +1,8 @@
 # Quiz de connaissances sur l'archéologie
 
 Ce projet a été réalisé à l'aide du langage de programmation C# et de Windows Form .Net Framework.
-Il est relié à une base de données MongoDB appelé quiz_archeo.
+
+Il est relié à une base de données MongoDB appelée quiz_archeo.
 
 
 
@@ -9,7 +10,7 @@ Il est relié à une base de données MongoDB appelé quiz_archeo.
 
 Pour lancer correctement le projet, vous devez préalablement l'ouvrir en sélectionnant la solution et non le dossier.
 
-Vous devez ensuite installez le package MongoDB.Driver
+Vous devez ensuite installer le package MongoDB.Driver
 
 ### Création de la base de données
 
