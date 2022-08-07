@@ -42,7 +42,9 @@ Ce mode permet de tester ses connaissances tout en apprenant.
 Après chaque réponse choisie par l'utilisateur, une explication est donnée sur le sujet de la question. 
 Ce qui permet à ce dernier d'en apprendre d'avantage tout au long du quiz.
 
-![explication](img/Train.PNG)
+![explication](img/Explication.PNG)
+
+![train](img/Train.PNG)
 
 
 ### Mode chronométré
