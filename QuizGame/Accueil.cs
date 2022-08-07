@@ -22,36 +22,8 @@ namespace QuizGame
         {
             InitializeComponent();
 
-           // listBox1_SelectedIndexChanged();
         }
 
-        /*private void listBox1_SelectedIndexChanged()
-        {
-            MessageBox.Show("Bonne chance !");
-            //connect to mongodb 
-            client = new MongoClient(
-            "mongodb://localhost:27017");
-
-            var database = client.GetDatabase("archeo");
-
-            var collectionTest = database.GetCollection<BsonDocument>("quiz_archeo");
-
-            var documents = collectionTest.Find(new BsonDocument()).ToList();
-
-            foreach (BsonDocument doc in documents)
-            {
-                //MessageBox.Show(doc.ToString());
-                MessageBox.Show(doc[1].ToString()+ Environment.NewLine + doc[2].ToString() + Environment.NewLine+ doc[3].ToString() + Environment.NewLine+ doc[4].ToString());
-
-
-                //var leadertemp = new quiz(doc[1].ToString(), doc[2].ToString(), doc[3].ToString(), doc[4].ToString());
-               
-                
-            }
-
-
-
-        }*/
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -61,18 +33,21 @@ namespace QuizGame
         // Quiz d'entraînement
         private void button1_Click(object sender, EventArgs e)
         {
-            // Pas de certificat
-            // Pas de chronométrage
-            // Avec description
-            MessageBox.Show("Bonne partie !");
+            
+            MessageBox.Show("Bon entrainement !");
+
+           
+            quiz_entrainement train = new quiz_entrainement();
+            train.ShowDialog();
         }
 
         // Quiz chronométré
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Attention ! Le chrono va vite se déclencher.");
-            // Mettre chrono 
-            // Enlevé description
+            
+            quiz_chronometre quizchrono = new quiz_chronometre();
+            quizchrono.ShowDialog();
 
         }
 
@@ -81,7 +56,6 @@ namespace QuizGame
         {
             MessageBox.Show("Bonne chance !");
 
-            // Ajout chrono + certificat
             Form1 exam = new Form1();
             exam.ShowDialog();
         }

@@ -59,3 +59,5 @@ C:\Users\Dina\source\repos\ProjetPro\QuizGame\QuizGame\bin\Debug\System.Runtime.
 C:\Users\Dina\source\repos\ProjetPro\QuizGame\QuizGame\bin\Debug\System.Security.AccessControl.xml
 C:\Users\Dina\source\repos\ProjetPro\QuizGame\QuizGame\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\Dina\source\repos\ProjetPro\QuizGame\QuizGame\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\Dina\source\repos\ProjetPro\QuizGame\QuizGame\obj\Debug\QuizGame.quiz_entrainement.resources
+C:\Users\Dina\source\repos\ProjetPro\QuizGame\QuizGame\obj\Debug\QuizGame.quiz_chronometre.resources
