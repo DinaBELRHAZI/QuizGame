@@ -38,6 +38,8 @@ namespace QuizGame
 
             // Nombre total de questions
             totalQuestions = 15;
+
+            // Lancement du chronomètre
             Form1_Load();
 
 
@@ -109,7 +111,7 @@ namespace QuizGame
             {
 
                 // Arrêt du timer
-                //MyTimer_Tick.Stop();
+                MyTimer_Tick.Stop();
 
                 //Calcul du pourcentage de bonnes réponses
                 pourcentage = (int)Math.Round((double)(score * 100 )/ totalQuestions);

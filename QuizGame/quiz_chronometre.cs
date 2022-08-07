@@ -40,6 +40,8 @@ namespace QuizGame
 
             // Nombre total de questions
             totalQuestions = 10;
+
+            // Lancement du chronomètre
             Form1_Load();
 
         }
