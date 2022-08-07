@@ -1,4 +1,4 @@
-﻿#Quiz de connaissances sur l'archéologie
+#Quiz de connaissances sur l'archéologie
 
 Ce projet a été réalisé à l'aide du langage de programmation C# et de Windows Form .Net Framework.
 Il est relié à une base de données MongoDB appelé quiz_archeo.
@@ -31,6 +31,8 @@ Vous avez différents modes de quiz.
 
 ![accueil](img/Accueil.PNG)
 
+
+
 ####Mode entraînement
 
 Ce mode permet de tester ses connaissances tout en apprenant.
@@ -49,6 +51,7 @@ Si le temps sécoule avant d'avoir répondu à toutes les questions, l'utilisate
 
 ![chrono](img/chrono.PNG)
 
+
 ### Mode examen
 
 Ce mode permet de tester les connaissances de l'utilisateurs en un temps limité (15 questions en 1 min)
@@ -56,7 +59,9 @@ Ce mode permet de tester les connaissances de l'utilisateurs en un temps limité
 A la fin de ce quiz, l'utilisateur se voit attribué son certificat de réussite lorsqu'il obtient une note égal ou supérieur à la moyenne.
 
 Afin de l'obtenir, un formulaire s'ouvre. L'utilisateur doit entrer son nom et prénom puis récupérer son certificat.
+
 ![Certificat](img/certificat_form2.PNG)
+
 Voici un exemple (QuizGame/QuizGame/bin/Debug/Certificat_MARINE_Anna.pdf)
 
 
