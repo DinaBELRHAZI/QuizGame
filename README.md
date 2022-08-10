@@ -14,7 +14,7 @@ Vous devez ensuite installer le package MongoDB.Driver
 
 ### Création de la base de données
 
-Vous pouvez utiliser soit le fichier quiz_archeo.xlsx, soit qui_archeo.js pour créer votre bdd.
+Utilisez le fichier quiz_archeo.csv pour créer votre bdd.
 
 ![bdd](img/Mongodb_archeo_quiz.PNG)
 
